@@ -1,0 +1,77 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-13T07:56:37.907Z",
+        "line": 8,
+        "name": "Students tablosundaki lastname bilgisi \u0027T\u0027 ile başlayan öğrenci verileri testi",
+        "description": "",
+        "id": "query03;students-tablosundaki-lastname-bilgisi--t--ile-başlayan-öğrenci-verileri-testi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1348430300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Database baglantisi kurulur.",
+            "match": {
+              "location": "stepDefinitions.DBstepDefinition.database_baglantisi_kurulur()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 210759200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "students tablosu icin query hazirlanir.",
+            "match": {
+              "location": "stepDefinitions.DBstepDefinition.students_tablosu_icin_query_hazirlanir()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 15954400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Students tablosundan donen sonuclari listeleyiniz",
+            "match": {
+              "location": "stepDefinitions.DBstepDefinition.students_tablosundan_donen_sonuclari_listeleyiniz()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 23978900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Database baglantisi kapatilir.",
+            "match": {
+              "location": "stepDefinitions.DBstepDefinition.database_baglantisi_kapatilir()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@query03"
+          }
+        ]
+      }
+    ],
+    "name": "Query03",
+    "description": "",
+    "id": "query03",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/JDBC_Query03.feature",
+    "tags": []
+  }
+]

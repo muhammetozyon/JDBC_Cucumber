@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.124">
+    <testcase classname="Query03" name="Students tablosundaki lastname bilgisi 'T' ile başlayan öğrenci verileri testi" time="1.748">
+        <system-out>
+            <![CDATA[* Database baglantisi kurulur...............................................passed
+* students tablosu icin query hazirlanir....................................passed
+* Students tablosundan donen sonuclari listeleyiniz.........................passed
+* Database baglantisi kapatilir.............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
